@@ -1,0 +1,33 @@
+{
+    "name": "namesilo-dynamicdns",
+    "version": "1.0.0",
+    "description": "A nodejs to update namesilo's dynamic DNS",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fedoranimus/namesilo-dynamicdn.git"
+    },
+    "keywords": [
+      "namesilo",
+      "dynamic",
+      "dns",
+      "dynamicdns"
+    ],
+    "author": "Tim Turner",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fedoranimus/namesilo-dynamicdns/issues"
+    },
+    "homepage": "https://github.com/fedoranimus/namesilo-dynamicdns#readme",
+    "dependencies": {
+      "got": "^8.0.2",
+      "jsonfile": "^4.0.0",
+      "public-ip": "^2.4.0",
+      "xml2js": "^0.4.19"
+    }
+  }
+  
